@@ -1,7 +1,7 @@
 // autoBuild.js
 const http = require('http');
 const spawn = require('child_process').spawn;
-const createHandler = require('github-Webhook-handler');
+const createHandler = require('github-webhook-handler');
 const handler = createHandler({ path: '/', secret: 'whk' }); // 在代码仓库的 Webhooks 选项处配置
 
 http.createServer(function(req, res) {
