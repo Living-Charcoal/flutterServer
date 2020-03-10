@@ -19,3 +19,8 @@ flutter app 服务端
 ## ecosystem.config.js pm2 配置文件
 
 ## githubHanler 部署服务器配置文件
+
+# 待办
+    1.pm2启用多核log4js打印日志不全
+    2.接口规范
+    3.错误码集中管理
