@@ -76,6 +76,7 @@ app.use(
             // 设置login、register接口，可以不需要认证访问
             /^\/api\/login/,
             /^\/api\/register/,
+            /^\/api\/mtaevent/,
             /^((?!\/api).)*$/ // 只设置接口的验证
         ]
     })

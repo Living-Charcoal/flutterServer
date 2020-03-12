@@ -13,6 +13,7 @@
     "dependencies": {
         "bcrypt": "^4.0.1",
         "bcryptjs": "^2.4.3",
+        "crypto": "^1.0.1",
         "debug": "^2.6.3",
         "ejs": "~2.3.3",
         "github-webhook-handler": "^1.0.0",
@@ -28,7 +29,8 @@
         "koa-static": "^3.0.0",
         "koa-views": "^5.2.1",
         "mongoose": "^5.9.3",
-        "pm2": "^4.2.3"
+        "pm2": "^4.2.3",
+        "request": "^2.88.2"
     },
     "devDependencies": {
         "nodemon": "^1.19.4"
