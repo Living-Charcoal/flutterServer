@@ -50,7 +50,7 @@ const register = {
             const insertResult = await insert({ username, password: encryptPassword });
             ctx.status = 200;
             ctx.body = {
-                code: 200,
+                code: 0,
                 message: '注册成功!'
             };
         }
