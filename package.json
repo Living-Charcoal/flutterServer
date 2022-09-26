@@ -28,7 +28,7 @@
         "koa-static": "^3.0.0",
         "koa-views": "^5.2.1",
         "mongoose": "^5.9.3",
-        "pm2": "^4.2.3"
+        "pm2": "^5.2.0"
     },
     "devDependencies": {
         "nodemon": "^1.19.4"
